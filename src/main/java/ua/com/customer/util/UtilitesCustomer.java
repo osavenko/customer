@@ -20,23 +20,29 @@ public class UtilitesCustomer {
     public static List<Customer> getList() {
         List<Customer> list = new ArrayList<Customer>();
         int newId = UtilitesCustomer.getMaxId(list) + 1;
-        list.add(new Customer(newId, "Савенко", "Олег", "Юрійович",
+        list.add(new Customer(newId, "Іванов", "Олег", "Юрійович",
                 "", new BigInteger("5420303020201056"), ""));
         newId = UtilitesCustomer.getMaxId(list) + 1;
-        list.add(new Customer(newId, "Савенко", "Иван", "Олегович",
+        list.add(new Customer(newId, "Лабоченко", "Сергей", "Олегович",
                 "", new BigInteger("5420303020201057"), ""));
         newId = UtilitesCustomer.getMaxId(list) + 1;
-        list.add(new Customer(newId, "Савенко", "Елена", "Олександрівна",
+        list.add(new Customer(newId, "Ільїна", "Елена", "Олександрівна",
                 "",new BigInteger("5420303020201050"), ""));
         newId = UtilitesCustomer.getMaxId(list) + 1;
-        list.add(new Customer(newId, "Савенко", "Вадим", "Юрійович",
+        list.add(new Customer(newId, "Ушанов", "Вадим", "Юрійович",
                 "", new BigInteger("5420303020201051"), ""));
         newId = UtilitesCustomer.getMaxId(list) + 1;
-        list.add(new Customer(newId, "Савенко", "Анна", "Олександрівна",
+        list.add(new Customer(newId, "Сірко", "Анна", "Олександрівна",
                 "", new BigInteger("5420303020201052"), ""));
         newId = UtilitesCustomer.getMaxId(list) + 1;
-        list.add(new Customer(newId, "Савенко", "Наталія", "Володимирівна",
+        list.add(new Customer(newId, "Сірко", "Наталія", "Володимирівна",
                 "", new BigInteger("5420303020201053"), ""));
+        newId = UtilitesCustomer.getMaxId(list) + 1;
+        list.add(new Customer(newId, "Сірко", "Андрій", "Володимирович",
+                "", new BigInteger("5420303020201058"), ""));
+        newId = UtilitesCustomer.getMaxId(list) + 1;
+        list.add(new Customer(newId, "Сірко", "Сергій", "Володимирович",
+                "", new BigInteger("5420303020201059"), ""));
 
         return list;
     }
